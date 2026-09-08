@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PureRoots Flour & Spices | Launching Soon</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>PureRoots — Launching Soon</title>
+<meta name="description" content="PureRoots — From Nature's Roots to Your Home. Freshly ground flours and pure Indian spices. Launching soon.">
 <style>
-*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
-body{min-height:100vh;background:linear-gradient(135deg,#f7f1e3,#e1eddc);display:flex;align-items:center;justify-content:center;padding:20px;color:#333}
-.card{max-width:720px;width:100%;background:#fff;text-align:center;padding:55px 30px;border-radius:24px;box-shadow:0 12px 40px rgba(0,0,0,.12)}
-.icon{font-size:55px;margin-bottom:12px}
-.brand{font-size:42px;font-weight:800;color:#356b3c;margin-bottom:8px}
-.sub{font-size:18px;color:#8a673b;letter-spacing:2px;margin-bottom:30px}
-h1{font-size:32px;margin-bottom:18px}
-p{font-size:17px;color:#666;line-height:1.7;max-width:550px;margin:auto}
-.launch{display:inline-block;background:#356b3c;color:white;margin:30px 0 24px;padding:14px 28px;border-radius:30px;font-size:18px;font-weight:bold}
-.email{display:inline-block;margin-top:12px;padding:14px 22px;background:#f5f1e7;border-radius:12px;color:#356b3c;font-weight:bold;text-decoration:none}
-footer{margin-top:35px;color:#999;font-size:13px}
-@media(max-width:600px){.brand{font-size:34px}h1{font-size:27px}.card{padding:45px 20px}}
+:root{--green:#124c2b;--green2:#1f653c;--cream:#f8f3e8;--ink:#173a28;--gold:#c79b55}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:#fbf8f0}.top{background:var(--green);color:#fff;text-align:center;padding:9px;font:14px Arial,sans-serif}.nav{height:82px;background:#fffdf7;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid #eee7d9;position:sticky;top:0;z-index:5}.logo{font-size:36px;font-weight:700;letter-spacing:-1.5px}.tag{display:block;font:11px Arial,sans-serif;letter-spacing:.5px;margin-top:-4px}.links{display:flex;gap:28px;font:14px Arial,sans-serif}.links a{color:var(--ink);text-decoration:none}.hero{min-height:475px;background:linear-gradient(90deg,#fbf4e6 0%,rgba(251,244,230,.9) 38%,rgba(251,244,230,.05) 65%),url('assets/hero.jpg') center/cover no-repeat;display:flex;align-items:center;padding:50px 6%}.hero-copy{max-width:520px}.eyebrow{text-transform:uppercase;letter-spacing:3px;font:13px Arial,sans-serif;color:#55715e}.hero h1{font-size:55px;line-height:1.02;margin:15px 0;color:var(--green)}.hero p{font-size:19px;line-height:1.55}.btn{display:inline-block;background:var(--green);color:#fff;padding:14px 24px;border-radius:30px;text-decoration:none;font:600 14px Arial,sans-serif;margin-top:10px}.launch{background:var(--cream);padding:44px 6%;text-align:center;border-bottom:1px solid #e9e0cf}.launch h2{font-size:42px;margin:0;color:var(--green)}.launch p{font-size:18px;max-width:680px;margin:12px auto 22px;line-height:1.6}.email{display:inline-flex;gap:8px;flex-wrap:wrap;justify-content:center;font:15px Arial,sans-serif}.email a{color:var(--green);font-weight:700}.features{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:#e9e1d2}.feature{background:#fffaf0;padding:22px;text-align:center;font-size:15px}.feature b{display:block;margin-bottom:7px}.section{padding:48px 5%}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:22px}.section h2{font-size:34px;margin:0}.muted{font:14px Arial,sans-serif;color:#68756c}.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.card{background:#fff;border:1px solid #e5dfd2;border-radius:14px;overflow:hidden;box-shadow:0 5px 18px rgba(35,60,40,.05)}.card img{width:100%;height:135px;object-fit:cover;display:block}.card-body{padding:15px}.card h3{font-size:17px;margin:0 0 6px}.card p{font:12px Arial,sans-serif;color:#68756c;margin:0 0 12px}.price{font:700 15px Arial,sans-serif}.spice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.spice img{height:190px}.about{display:grid;grid-template-columns:1fr 1fr;background:#f2ecdf}.about img{width:100%;height:100%;object-fit:cover;min-height:320px}.about-copy{padding:55px}.about-copy h2{font-size:35px;margin-top:0}.about-copy p{font-size:17px;line-height:1.65}.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:25px}.mini div{font-size:14px}.banner{margin:0 5% 45px;border-radius:16px;overflow:hidden}.banner img{width:100%;display:block}.footer{background:#073e22;color:#fff;padding:42px 5%;display:grid;grid-template-columns:2fr 1fr 1fr;gap:35px}.footer .logo{font-size:31px}.footer p,.footer li{font:14px Arial,sans-serif;line-height:1.7;color:#dbe8dc}.footer ul{list-style:none;padding:0;margin:0}.copyright{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.25);padding-top:18px;font:12px Arial,sans-serif;color:#cbd9ce}.modal{position:fixed;inset:0;background:rgba(6,35,20,.58);display:flex;align-items:center;justify-content:center;padding:20px;z-index:20}.modal-card{background:#fffaf0;border:1px solid #dfd4bd;border-radius:24px;max-width:540px;text-align:center;padding:45px 35px;box-shadow:0 30px 80px rgba(0,0,0,.25)}.leaf{font-size:36px}.modal-card h2{font-size:45px;color:var(--green);margin:10px 0}.modal-card p{font:16px Arial,sans-serif;line-height:1.6;color:#536056}.modal-card a{color:var(--green);font-weight:700;text-decoration:none}.close{margin-top:22px;border:1px solid #c7baa4;background:transparent;color:var(--green);padding:10px 20px;border-radius:20px;cursor:pointer}
+@media(max-width:850px){.links{display:none}.hero h1{font-size:43px}.grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(2,1fr)}.spice-grid,.about{grid-template-columns:1fr}.footer{grid-template-columns:1fr}.modal-card h2{font-size:36px}}
+@media(max-width:520px){.nav{height:70px}.logo{font-size:29px}.hero{min-height:430px;padding:35px 7%}.hero h1{font-size:38px}.hero p{font-size:16px}.grid{grid-template-columns:1fr}.section{padding:38px 6%}.section h2{font-size:28px}.launch h2{font-size:34px}.modal-card{padding:35px 22px}}
 </style>
 </head>
 <body>
-<div class="card">
-<div class="icon">🌾 🌿</div>
-<div class="brand">PureRoots</div>
-<div class="sub">FLOUR & SPICES</div>
-<h1>Something Fresh & Pure is Coming Soon!</h1>
-<p>We are preparing high-quality flour and authentic spices to bring natural taste and healthy goodness to your kitchen.</p>
-<div class="launch">🚀 LAUNCHING SOON</div>
-<p>For business enquiries, contact us</p>
-<a class="email" href="mailto:dehrakrishna@gmail.com">📧 dehrakrishna@gmail.com</a>
-<footer>© 2026 PureRoots Flour & Spices. All Rights Reserved.</footer>
-</div>
-</body>
-</html>
+<div class="top">🌿 Free Shipping on Orders Above ₹999 &nbsp; | &nbsp; 100% Natural Products &nbsp; | &nbsp; COD Available</div>
+<header class="nav"><div><div class="logo">PureRoots</div><span class="tag">From Nature's Roots to Your Home</span></div><nav class="links"><a href="#home">Home</a><a href="#flours">Flours</a><a href="#spices">Spices</a><a href="#about">About Us</a><a href="mailto:dehrakrishna@gmail.com">Contact</a></nav></header>
+<main id="home">
+<section class="hero"><div class="hero-copy"><div class="eyebrow">Pure &nbsp;|&nbsp; Natural &nbsp;|&nbsp; Wholesome</div><h1>From Nature’s Roots<br>to Your Home</h1><p>Freshly Ground Flours &amp; Pure Indian Spices —<br>सीधे खेतों की जड़ों से आपके घर तक।</p><a class="btn" href="#launch">Launching Soon →</a></div></section>
+<section class="launch" id="launch"><div class="leaf">🌿</div><h2>Launching Soon</h2><p>PureRoots is getting ready to bring wholesome grains, freshly ground flours and authentic Indian spices to your home.</p><div class="email">For updates &amp; enquiries: <a href="mailto:dehrakrishna@gmail.com">dehrakrishna@gmail.com</a></div></section>
+<section class="features"><div class="feature"><b>🌿 100% Natural &amp; Pure</b>Goodness you can trust</div><div class="feature"><b>🚫 No Artificial Colours</b>Clean ingredients</div><div class="feature"><b>🍃 No Preservatives</b>Simple &amp; natural</div><div class="feature"><b>📦 Freshly Packed</b>For better taste</div><div class="feature"><b>🌾 Supporting Farmers</b>Rooted in India</div></section>
+<section class="section" id="flours"><div class="section-head"><div><h2>🌿 Our Flours</h2><div class="muted">Wholesome grains for a healthier tomorrow</div></div><span class="muted">Launching soon →</span></div><div class="grid">
+<div class="card"><img src="assets/bajra.jpg"><div class="card-body"><h3>Bajra Atta</h3><p>Rich in Fibre | Keeps You Full Longer</p><div class="price">₹85 / 1kg</div></div></div>
+<div class="card"><img src="assets/wheat.jpg"><div class="card-body"><h3>Wheat Atta (Gehu)</h3><p>Soft &amp; Nutritious | Everyday Staple</p><div class="price">₹75 / 1kg</div></div></div>
+<div class="card"><img src="assets/jowar.jpg"><div class="card-body"><h3>Jowar Atta</h3><p>Gluten Free | Good for Heart</p><div class="price">₹80 / 1kg</div></div></div>
+<div class="card"><img src="assets/multigrain.jpg"><div class="card-body"><h3>Multigrain Atta</h3><p>Power of 5 Grains | More Nutrition</p><div class="price">₹95 / 1kg</div></div></div>
+<div class="card"><img src="assets/chakki.jpg"><div class="card-body"><h3>Fresh Chakki Atta</h3><p>Stone Ground | Pure &amp; Natural</p><div class="price">₹70 / 1kg</div></div></div>
+</div></section>
+<section class="section" id="spices"><div class="section-head"><div><h2>🌿 Pure Spices</h2><div class="muted">Authentic taste, natural goodness</div></div></div><div class="spice-grid">
+<div class="card spice"><img src="assets/lal-mirch.jpg"><div class="card-body"><h3>Lal Mirch Powder</h3><p>Bold Colour | Rich Flavour</p><div class="price">₹120 / 250g</div></div></div>
+<div class="card spice"><img src="assets/dhaniya.jpg"><div class="card-body"><h3>Dhaniya Powder</h3><p>Fresh Aroma | Pure &amp; Natural</p><div class="price">₹90 / 250g</div></div></div>
+<div class="card spice"><img src="assets/haldi.jpg"><div class="card-body"><h3>Haldi Powder</h3><p>Pure | Naturally Rich</p><div class="price">₹100 / 250g</div></div></div>
+</div></section>
+<section class="about" id="about"><img src="assets/about.jpg"><div class="about-copy"><h2>🌿 About PureRoots</h2><p>At PureRoots, we believe that true health begins with nature. Our mission is to bring the goodness of traditional grains and authentic Indian spices to every home — in their purest, freshest and most natural form.</p><div class="mini"><div><b>🌾 Traditional Grains</b><br> &amp; Spices</div><div><b>🌱 Trusted Farmers</b><br>Sourced responsibly</div><div><b>✓ Quality Checked</b><br>Carefully packed</div></div></div></section>
+<div class="banner"><img src="assets/banner.jpg"></div>
+</main>
+<footer class="footer"><div><div class="logo">PureRoots</div><div class="tag">From Nature's Roots to Your Home</div><p>Pure • Natural • Wholesome</p></div><div><h3>Quick Links</h3><ul><li>Home</li><li>Flours</li><li>Spices</li><li>About Us</li><li>Contact</li></ul></div><div><h3>Contact</h3><p>✉️ <a href="mailto:dehrakrishna@gmail.com" style="color:#fff">dehrakrishna@gmail.com</a><br>📍 Nagaur, Rajasthan</p></div><div class="copyright">© 2026 PureRoots. All Rights Reserved.</div></footer>
+<div class="modal" id="modal"><div class="modal-card"><div class="leaf">🌿</div><h2>Launching Soon</h2><p>Something pure, natural and wholesome is coming soon.</p><p>Stay connected at<br><a href="mailto:dehrakrishna@gmail.com">dehrakrishna@gmail.com</a></p><button class="close" onclick="document.getElementById('modal').style.display='none'">Enter Website</button></div></div>
+</body></html>
